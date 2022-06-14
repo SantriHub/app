@@ -7,7 +7,6 @@
     "build:fetch": "npm run fetch",
     "build:css": "npm run generate:css -- --minify",
     "build:remix": "remix build",
-    "deploy": "deployctl deploy --prod --include=build,public --project=senarai ./build/index.js",
     "dev": "remix build && run-p dev:*",
     "dev:css": "npm run generate:css -- --watch",
     "dev:deno": "cross-env NODE_ENV=development deno run --unstable --watch --allow-net --allow-read --allow-env ./build/index.js",
