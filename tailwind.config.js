@@ -10,5 +10,4 @@ module.exports = {
       rose: colors.rose,
     },
   },
-  plugins: [],
 }
